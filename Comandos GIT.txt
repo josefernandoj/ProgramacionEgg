@@ -1,0 +1,25 @@
+git log 
+git init /*inicializar git (una vez por proyecto)*/
+git remote add <name> <url> /*vincular repositorio con GitHub/*
+
+
+git status /*Ver lo que se modifico*/
+git add . /*Guardar todo lo modficado*/
+git add <archivo> /*guardar un unico archivo/*
+git commit -m "COMENTARIO" /*Guardar en la rama */
+
+git branch /*corroborar en que rama estamos*/
+git branch NOMBRE DE LA RAMA /*creamos una rama*/
+git checkout NOMBRE DE LA RAMA /*moverse de la master a la rama creada*/
+git branch -d NOMBRE DE LA RAMA /*borrar rama*/git status
+
+
+git merge NOMBRE DE LA RAMA /*unir la rama creada con la principal*/
+
+git log /*ver todod los commit*/
+
+git checkout CODIGO DE COMMIT /*volver al commit seleccionado*/
+
+git push /*subir a github*/
+
+git clone URL /*bajar repositoriode la nube a la pc*/

@@ -59,8 +59,15 @@ public class CuentaBancariaServicio {
     }
     
     public void consultarDatos(CuentaBancaria cuenta){
+      String tecla;
       System.out.println(cuenta.toString());
-    
+      System.out.println("Desea salir?");
+      tecla=leer.nextLine();
+      while (!"s".equals(tecla)){
+         System.out.println("Ingrese la opcion correcta");  
+         tecla=leer.nextLine();
+      }
+      
     }
     
 }

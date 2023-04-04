@@ -29,6 +29,8 @@ public class Guia8_ejer1_nuevo {
     ctaserv.extraccionRapida(cliente);
     ctaserv.consultarSaldo(cliente);
     ctaserv.consultarDatos(cliente);
+   
+    
     
   }
   
